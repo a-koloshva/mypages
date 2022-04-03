@@ -1,0 +1,44 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #cecccc;
+}
+
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 0 15px;
+}
+
+.header-img {
+  width: 150px;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.header-info-name {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.header-info-media {
+  display: flex;
+  align-items: center;
+}
+
+.header-info-media a {
+  width: 30px;
+  margin: 5px;
+}
+
+.header-info-media a img {
+  width: 100%;
+}
